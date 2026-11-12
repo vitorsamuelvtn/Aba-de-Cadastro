@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: 'coolvetica';
+    src: url(../assets/font/Coolvetica.otf);
+}
+.titulo-senai{
+    height: 150px;
+    width: auto;
+     
+}
+header {
+    background-color: #164194;
+    width: 100%;
+}
+body{
+    background-color: rgb(210, 210, 221);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.imagem-senai {
+    height: 130px;
+}
+.infopessoais{
+    color: rgb(0, 0, 0);
+    h2{
+        font-family: 'coolvetica';
+    }
+}
+.tudoinfopessoais{
+    height: 600px;
+    width: 1200px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    row-gap: 30px;
+
+}
+.form1 input{
+    border-radius: 30px;
+    width: 60px;
+    height: 90px;
+}
+
+.digite-nome{
+    height: 15px;
+    width: 550px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    
+    
+}
+.data-1{
+    transform: translate(630px,-55px);
+    height: 15px;
+    width: 240px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+.vinculo{
+     border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transform: translate();
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/js/script.js">
+    <title>Aba de Cadastro Senai</title>
+
+    
+</head>
+    <body>
+        <header>
+             <img class="imagem-senai" src="assets/image/UM.png" alt="logo senai">
+        </header>
+         <main>
+            <section class="informações-pessoais">
+             <div class="tudoinfopessoais">
+                <div class="infopessoais">
+                    <h2>Informações Pessoais</h2>
+                </div>
+                <div id="formulario">
+                    <form>
+                        <div class="informacoespessoais">
+                            <div class="formparte1">
+                                <div class="digite-seu-nome">
+                                    <label>Nome:</label>
+                                    <input type="text" class="digite-nome" placeholder="Digite seu Nome completo">
+                                </div>
+                                <div class="data">
+                                    <label>data de nascimento:</label>
+                                    <input class="data-1" type="date">
+                                </div>
+                            </div>
+                            <div class="formparte2">
+                                <div class="setor">
+                                    <select class="vinculo" name="vinculo com o senai" required>
+                                        <option value="" selected disabled>Seu Vínculo Com o Senai</option>
+                                        <option value="Instrutor">Instrutor</option>
+                                        <option value="Aluno">Aluno</option>
+                                        <option value="Pedagogia">Pedagogia</option>
+                                        <option value="Serviços Gerais">Serviços Gerais</option>
+                                    </select>
+                                </div>
+                                <label>turma/setor:</label>
+                                <input class="turma" type="text" placeholder="Turma/Setor">
+                            </div>
+                            <div class="formparte3">
+                                <label>digite seu e-mail:</label>
+                                <input type="email" placeholder="Digite seu E-mail">
+                                <label>digite sua senha:</label>
+                                <input type="password" placeholder="Digite sua Senha">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section class="Endereço">
+                                <div class="tituloendereco">
+                                    <h2>Endereço</h2>
+                                </div>
+                                <div class="endereco">
+                                    <div class="Enderecoparte1">
+                                        <label></label>
+                                        <input type="text" placeholder="00*000-00">
+                                        <button onclick="buscarCep()">Buscar</button>
+                                        <label>Logradouro:</label>
+                                        <input type="text" placeholder="Logradouro">
+                                        <label>Número:</label>
+                                        <input type="text" placeholder="Digite o Número">
+                                        <label>Complemento:</label>
+                                        <input type="text" placeholder="Complemento (opcional)">
+                                    </div>
+                                    <div class="enderecoparte2">
+                                          <label>Bairro:</label>
+                                           <input type="text" placeholder="Digite seu bairro">
+                                          <label>Cidade:</label>
+                                            <input type="text" placeholder="Digite sua Cidade">
+                                          <label>Estado:</label>
+                                           <input type="text" placeholder="Digite seu Estado">
+                                    </div>
+                                </div>
+                                <div class="botaocadastrar">
+                                    <button onclick="cadastrar()">Cadastrar</button>
+                                </div>
+                                <div class="botaolimpar">
+                                    <button onclick="limpar()">Limpar Cadastro</button>
+                                </div>
+                            </div>
+            </section>
+            <section class="pessoas-cadastradas">
+                            <h3>Lista de Pessoas Cadastradas</h3>
+                            <div class="listacadastro">
+                                <div class="titulopessoascadastradas">
+                                <ol>
+                                    <li></li>
+                                </ol>
+                                </div>
+                            </div>
+            </section> 
+                        </form>
+        </main>
+    </body>
+</html>
