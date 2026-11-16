@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: 'coolvetica';
+    src: url(../assets/font/Coolvetica.otf);
+}
+.titulo-senai{
+    height: 150px;
+    width: auto;
+     
+}
+header {
+    background-color: #164194;
+    width: 100%;
+}
+body{
+    background-color: rgb(210, 210, 221);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.imagem-senai {
+    height: 130px;
+}
+.infopessoais{
+ font-family: 'coolvetica', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+.tudoinfopessoais {
+    height: auto;
+    min-height: unset;
+    width: fit-content;
+    max-width: 90%;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 35px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.form1 input{
+    border-radius: 30px;
+    width: 60px;
+    height: 90px;
+}
+
+.digite-nome{
+    height: 15px;
+    width: 550px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    
+}
+.data-1{
+    height: 15px;
+    width: 240px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.vinculo{
+     border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);  
+}
+.formparte1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.data label{
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.informacoespessoais {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.formparte2,
+.formparte3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.vinculo,
+.turma,
+.formparte3 input {
+    height: 55px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 0 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+    color: #000000;
+    outline: none;
+}
+.vinculo {
+    width: 260px;
+}
+.turma,
+.formparte3 input {
+    width: 250px;
+}
+.Endereço {
+    height: auto;
+    width: 100%;
+    max-width: 950px;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 35px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    color: #000000;
+}
+.tituloendereco h2 {
+    font-family: 'coolvetica', sans-serif;
+    color: #000000;
+    font-size: 28px;
+}
+.endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Enderecoparte1,
+.enderecoparte2 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.endereco input {
+    height: 55px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding: 0 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+    color: #000000;
+    outline: none;
+}
+.Enderecoparte1 button {
+    height: 55px;
+    padding: 0 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: #164194;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Enderecoparte1 button:hover {
+    background-color: #0f2e6b;
+}
+.botaocadastrar button,
+.botaolimpar button {
+    height: 50px;
+    padding: 0 30px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.botaocadastrar button {
+    background-color: #164194;
+    color: #ffffff;
+}
+
+.botaocadastrar button:hover {
+    background-color: #0f2e6b;
+}
+
+.botaolimpar button {
+    background-color: rgba(255, 255, 255, 0.45);
+    color: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.botaolimpar button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+    padding: 40px 20px;
+}
+.campo-numero {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.botoes-acao {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+.pessoas-cadastradas {
+    height: auto;
+    width: 100%;
+    max-width: 950px;
+    border-radius: 35px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 35px 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    color: #000000;
+}
+.titulopessoascadastradas h2 {
+  font-family: 'coolvetica', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+}
+#lista-cadastros {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.item-cadastro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+}
+.dados-pessoa {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+}
+.dados-pessoa strong {
+    font-size: 17px;
+    color: #164194;
+}
+.acoes-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.btn-editar,
+.btn-excluir {
+    height: 42px;
+    padding: 0 20px;
+    border-radius: 12px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-editar {
+    background-color: #164194;
+    color: #ffffff;
+}
+.btn-editar:hover {
+    background-color: #0f2e6b;
+}
+.btn-excluir {
+    background-color: rgba(211, 47, 47, 0.85);
+    color: #ffffff;
+}
+.btn-excluir:hover {
+    background-color: #b71c1c;
+}
+.lista-vazia {
+    color: #444444;
+    font-size: 15px;
+    padding: 10px 0;
+}
